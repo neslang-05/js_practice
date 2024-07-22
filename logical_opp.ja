@@ -1,0 +1,12 @@
+while(true){
+            var age = prompt("Enter your age: ");
+            if(age === "exit")
+                break;
+                if(age >= 10 && age <= 20){
+                    alert("Your age is  between 10 and 20");
+                }else if (age <10){
+                    alert("You are below 10 ");
+                }else{
+                    alert("You are above 20");
+                }
+            }
